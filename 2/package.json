@@ -1,0 +1,18 @@
+{
+  "name": "aya_test_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "createDB": "node src/createDb/main.js",
+    "task1": "node src/task1/main.js",
+    "task2": "node src/task2/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.11.3"
+  }
+}
